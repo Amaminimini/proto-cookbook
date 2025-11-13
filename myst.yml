@@ -8,17 +8,27 @@ project:
   authors:
     - name: Amanda Maminimini
   copyright: '2025'
-  toc:
+ toc:
     - file: README.md
+
     - title: Preamble
       children:
         - file: notebooks/how-to-cite.md
-    - title: Introduction
+
+    - title: Severe weather soundings
       children:
-        - file: notebooks/notebook-template.ipynb
-    - title: Xarray Notebook
+        - file: notebooks/notebook1.ipynb
+
+    - title: 500-hPa Synoptic Analysis & Mapping over Northeastern US
       children:
-        - file: notebooks/xarray.ipynb
+        - file: notebooks/notebook2.ipynb
+
+    - title: Conclusion
+      children:
+        - file: conclusion.md
+
   jupyter:
       binder:
         repo: projectpythia/cookbook-template
+
+

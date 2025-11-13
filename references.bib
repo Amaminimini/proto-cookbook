@@ -1,92 +1,79 @@
-@article{Doswell:1996,
-   author    =  "C. A. Doswell and H. E. Brooks and R. A. Maddox",
-   title     =  "Flash flood forecasting: An ingredients-based methodology",
-   year      =  "1996",
-   journal   =  "Wea. Forecasting",
-   volume    =  "11",
-   pages     =  "560--581",
-   doi       = "https://doi.org/10.1175%2F1520-0434%281996%29011%3C0560%3AFFFAIB%3E2.0.CO%3B2"
+@article{Wasula:2002,
+  author = {Wasula, Alicia C. and Bosart, Lance F. and LaPenta, Kenneth D.},
+  title = {The Influence of Terrain on the Severe Weather Distribution across Interior Eastern New York and Western New England},
+  journal = {Weather and Forecasting},
+  year = {2002},
+  volume = {17},
+  number = {6},
+  pages = {1277--1289},
+  doi = {10.1175/1520-0434(2002)017<1277:TIOTOT>2.0.CO;2},
+  url = {https://journals.ametsoc.org/view/journals/wefo/17/6/1520-0434_2002_017_1277_tiotot_2_0_co_2.xml},
+  abstract = {Forecasters have long suspected that prominent mountain ranges and river valleys in eastern New York and western New England, including the Hudson and Mohawk River valleys and the Adirondack, Catskill, Green, and Berkshire Mountains, influence convective initiation and the distribution of severe weather. This study documents the climatology of severe weather in the region from 1950–98 and compares the spatial distribution of severe weather reports with cloud-to-ground lightning during severe weather days. Stratifying cases by 700-hPa flow direction (northwest versus southwest) reveals preferred areas for severe weather occurrence that correspond to wind–terrain interactions. The results highlight the importance of terrain-induced mesoscale effects in modulating severe storm patterns.}
 }
-@data{Guan:2024,
-  author = {GUAN, BIN},
-  publisher = {UCLA Dataverse},
-  title = {{[Data] Global Atmospheric Rivers Database, Version 4}},
+
+@article{Lebel:2021,
+  author = {Lebel, Luke J. and Tang, Brian H. and Lazear, Ross A.},
+  title = {Examining Terrain Effects on an Upstate New York Tornado Event Utilizing a High-Resolution Model Simulation},
+  journal = {Weather and Forecasting},
+  year = {2021},
+  volume = {36},
+  number = {6},
+  pages = {2057--2076},
+  doi = {10.1175/WAF-D-21-0021.1},
+  url = {https://www.atmos.albany.edu/facstaff/btang/papers/2021_Mechanicville_WAF.pdf},
+  abstract = {The complex terrain near the intersection of the Mohawk and Hudson Valleys influences the evolution of severe convection in upstate New York. Using a high-resolution WRF simulation of the 31 May 1998 Mechanicville tornado event, this study shows that terrain-channeled flow produced a localized dryline-like boundary that enhanced low-level shear, moisture, and instability east of the feature. A simulated supercell intensified after crossing this boundary due to greater streamwise vorticity and buoyancy in its inflow. These findings demonstrate how terrain-induced mesoscale boundaries can locally enhance the threat for severe convection and tornadogenesis.}
+}
+
+@misc{NWS_SVR_Params,
+  author = {National Weather Service},
+  title = {Severe Weather Parameters: Definitions and Computation},
+  year = {2020},
+  url = {https://www.weather.gov/media/lmk/soo/svr_parameters.pdf},
+  note = {Accessed 2025},
+  abstract = {This National Weather Service reference document provides definitions, equations, and interpretation guidelines for common severe weather parameters including CAPE, CIN, shear, storm-relative helicity, bulk wind difference, lifted indices, and composite indices. It explains how these quantities are computed and applied in forecasting severe thunderstorms and tornado potential.}
+}
+
+@misc{MetPyCookbook:2024,
+  author = {Project Pythia},
+  title = {500-hPa Absolute Vorticity and Wind Analysis Example},
   year = {2024},
-  version = {V5},
-  doi = {10.25346/S6/ZSW7UN},
-  url = {https://doi.org/10.25346/S6/ZSW7UN}
+  url = {https://projectpythia.org/metpy-cookbook/notebooks/synoptic/hpa-absolute-vorticity-winds/},
+  note = {Accessed 2025},
+  abstract = {This tutorial demonstrates how to analyze and visualize 500-hPa absolute vorticity and wind fields using MetPy, xarray, and Cartopy. It provides an end-to-end workflow for selecting pressure-level fields, computing derived quantities, converting grid-relative to earth-relative winds, and producing synoptic maps similar to those used in operational meteorology.}
 }
 
-@Article{GuanWaliser:2024,
-author={Guan, Bin
-and Waliser, Duane E.},
-title={A regionally refined quarter-degree global atmospheric rivers database based on ERA5},
-journal={Scientific Data},
-year={2024},
-month={May},
-day={03},
-volume={11},
-number={1},
-pages={440},
-abstract={Atmospheric rivers (ARs) are narrow, elongated, synoptic jets of water vapor that play important roles in the global water cycle. The continually developing Tracking Atmospheric Rivers Globally as Elongated Targets (tARget) algorithm identifies AR objects at individual time steps based on thresholding integrated water vapor transport (IVT) and other requirements, and tracks each AR object in time and space. Building on previous versions of tARget, this paper discusses further refinements to the algorithm to better handle ARs in tropical and polar areas, as well as ``zonal'' ARs which the previous versions of the algorithm were not designed to capture. This further regionally refined algorithm is applied to the ERA5 reanalysis over 1940--2023 at 6{\thinspace}h intervals and a 0.25{\textdegree}{\thinspace}{\texttimes}{\thinspace}0.25{\textdegree} horizontal resolution. The AR detection results are evaluated in terms of key AR characteristics. We anticipate this regionally refined global AR database will aid further understanding of ARs such as AR process studies, evaluation of AR simulations and predictions, and assessment of climate change impacts on ARs.},
-issn={2052-4463},
-doi={10.1038/s41597-024-03258-4},
-url={https://doi.org/10.1038/s41597-024-03258-4}
+@misc{SounderPy:2023,
+  author = {Gillett, Kyle J.},
+  title = {SounderPy Beginner’s Cookbook Tutorial},
+  year = {2023},
+  url = {https://github.com/kylejgillett/sounderpy/blob/main/colab_tutorials/beginners_sounderpy_cookbook.ipynb},
+  note = {Accessed 2025},
+  abstract = {An introductory tutorial for SounderPy, a Python library for retrieving, cleaning, and visualizing upper-air sounding data from IGRA, RAOB, and other sources. Walks through basic workflows including loading soundings, generating Skew-T diagrams, and computing standard thermodynamic and kinematic parameters.}
 }
 
-@article {Howarth:2019,
-      author = "Macy E. Howarth and Christopher D. Thorncroft and Lance F. Bosart",
-      title = "Changes in Extreme Precipitation in the Northeast United States: 1979–2014",
-      journal = "Journal of Hydrometeorology",
-      year = "2019",
-      publisher = "American Meteorological Society",
-      address = "Boston MA, USA",
-      volume = "20",
-      number = "4",
-      doi = "10.1175/JHM-D-18-0155.1",
-      pages=      "673 - 689",
-      url = "https://journals.ametsoc.org/view/journals/hydr/20/4/jhm-d-18-0155_1.xml"
+@misc{RAP:2020,
+  author = {NOAA ESRL},
+  title = {Rapid Refresh (RAP) Reanalysis Dataset},
+  year = {2020},
+  url = {https://rapidrefresh.noaa.gov/},
+  note = {Accessed 2025},
+  abstract = {The RAP reanalysis is a high-frequency, hourly, high-resolution dataset generated using the Rapid Refresh mesoscale analysis and forecast system. It provides wind, temperature, humidity, and stability parameters critical for diagnosing mesoscale environments associated with severe weather and aviation applications.}
 }
 
-@article{Lamjiri:2017,
-author = {Lamjiri, M. A. and Dettinger, M. D. and Ralph, F. M. and Guan, Bin},
-title = {Hourly storm characteristics along the U.S. West Coast: Role of atmospheric rivers in extreme precipitation},
-journal = {Geophysical Research Letters},
-volume = {44},
-number = {13},
-pages = {7020-7028},
-keywords = {atmospheric rivers, extreme precipitation, precipitation characteristics, floods, water resources},
-doi = {https://doi.org/10.1002/2017GL074193},
-url = {https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1002/2017GL074193},
-eprint = {https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1002/2017GL074193},
-abstract = {Abstract Gridded hourly precipitation observations over the conterminous U.S., from 1948 to 2002, are analyzed to determine climatological characteristics of storm precipitation totals. Despite generally lower hourly intensities, precipitation totals along the U.S. West Coast (USWC) are comparable to those in southeast U.S. (SEUS). Storm durations, more so than hourly intensities, strongly modulate precipitation-total variability over the USWC, where the correlation coefficients between storm durations and storm totals range from 0.7 to 0.9. Atmospheric rivers (ARs) contribute 30–50\% of annual precipitation on the USWC and make such large contributions to extreme storms that 60–100\% of the most extreme storms, i.e., storms with precipitation-total return intervals longer than 2 years, are associated with ARs. These extreme storm totals are more strongly tied to storm durations than to storm hourly or average intensities, emphasizing the importance of AR persistence to extreme storms on the USWC.},
-year = {2017}
+@misc{IGRA2:2016,
+  author = {Durre, Imke and Vose, Russell S. and Wuertz, David},
+  title = {Integrated Global Radiosonde Archive Version 2 (IGRA2)},
+  year = {2016},
+  url = {https://www.ncei.noaa.gov/products/weather-balloon/integrated-global-radiosonde-archive},
+  note = {Accessed 2025},
+  abstract = {IGRA2 is a global repository of quality-controlled radiosonde observations, providing profiles of pressure, temperature, humidity, and wind back to the early 20th century. It is widely used for climate studies, model verification, and analysis of pre-convective environments.}
 }
 
-@article { Rutz:2014,
-      author = "Jonathan J. Rutz and W. James Steenburgh and F. Martin Ralph",
-      title = "Climatological Characteristics of Atmospheric Rivers and Their Inland Penetration over the Western United States",
-      journal = "Monthly Weather Review",
-      year = "2014",
-      publisher = "American Meteorological Society",
-      address = "Boston MA, USA",
-      volume = "142",
-      number = "2",
-      doi = "10.1175/MWR-D-13-00168.1",
-      pages=      "905 - 921",
-      url = "https://journals.ametsoc.org/view/journals/mwre/142/2/mwr-d-13-00168.1.xml"
-}
-
-@article { Slinskey:2020,
-      author = "Emily A. Slinskey and Paul C. Loikith and Duane E. Waliser and Bin Guan and Andrew Martin",
-      title = "A Climatology of Atmospheric Rivers and Associated Precipitation for the Seven U.S. National Climate Assessment Regions",
-      journal = "Journal of Hydrometeorology",
-      year = "2020",
-      publisher = "American Meteorological Society",
-      address = "Boston MA, USA",
-      volume = "21",
-      number = "11",
-      doi = "10.1175/JHM-D-20-0039.1",
-      pages=      "2439 - 2456",
-      url = "https://journals.ametsoc.org/view/journals/hydr/21/11/JHM-D-20-0039.1.xml"
+@misc{NAM:2024,
+  author = {NOAA NCEP},
+  title = {North American Mesoscale (NAM) Analysis and Forecast Data},
+  year = {2024},
+  url = {https://www.ncei.noaa.gov/products/model-nam-analysis},
+  note = {Accessed 2025},
+  abstract = {The NAM produces mesoscale analyses and forecasts over North America at 12-km resolution, widely used for operational forecasting. The NAM analysis fields include winds, temperature, geopotential height, and moisture, making them valuable for synoptic and mesoscale meteorological research.}
 }

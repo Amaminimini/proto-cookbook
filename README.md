@@ -1,4 +1,4 @@
-# Amanda's Prototype Cookbook
+#  Amanda's Prototype Cookbook 
 
 <img src="thumbnails/thumbnail.png" alt="thumbnail" width="300"/>
 
@@ -7,17 +7,21 @@
 [![DOI](https://zenodo.org/badge/475509405.svg)](https://zenodo.org/badge/latestdoi/475509405)
 
 
-
-This Project Pythia Cookbook covers ... (replace `...` with the main subject of your cookbook ... e.g., _working with radar data in Python_)
+This Project Pythia Cookbook covers upper-air sounding analysis and mid-tropospheric synoptic mapping using observations, reanalysis and NAM data.
 
 ## Motivation
 
-(Add a few sentences stating why this cookbook will be useful. What skills will you, "the chef", gain once you have reached the end of the cookbook?)
+This cookbook demonstrates practical workflows for retrieving, analyzing, and visualizing atmospheric data using Python. The material highlights techniques for interpreting upper-air soundings, computing key thermodynamic and kinematic parameters, and generating 500-hPa synoptic maps from real model and reanalysis data. These skills support clear, reproducible analysis of severe-weather environments and mid-tropospheric dynamics.
 
 ## Authors
 
-[First Author](https://github.com/first-author1), [Second Author](https://github.com/second-author2), etc. _Acknowledge primary content authors here_ 
+[**Amanda Maminimini**](https://github.com/Amaminimini) — primary author and developer of all content, analysis workflows, and notebooks in this prototype cookbook.
 
+### Contributors
+
+<a href="https://github.com/ProjectPythia/cookbook-template/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=ProjectPythia/cookbook-template" />
+</a>
 ### Contributors
 
 <a href="https://github.com/ProjectPythia/cookbook-template/graphs/contributors">
@@ -26,15 +30,15 @@ This Project Pythia Cookbook covers ... (replace `...` with the main subject of 
 
 ## Structure
 
-(State one or more sections that will comprise the notebook. E.g., _This cookbook is broken up into two main sections - "Foundations" and "Example Workflows."_ Then, describe each section below.)
+This cookbook is organized into two main sections, each represented by a Jupyter notebook. Together, they demonstrate practical workflows for atmospheric data analysis using Python, various datasets, and visualization tools.
 
-### Section 1 ( Replace with the title of this section, e.g. "Foundations" )
+### Section 1 — Severe Weather Soundings
 
-(Add content for this section, e.g., "The foundational content includes ... ")
+This section focuses on comparing observed and model-derived soundings using SounderPy. It covers retrieving upper-air data, computing thermodynamic and kinematic parameters, and visualizing storm environments to assess severe-weather potential.
 
-### Section 2 ( Replace with the title of this section, e.g. "Example workflows" )
+### Section 2 — 500-hPa Synoptic Analysis & Mapping over Northeastern US
 
-(Add content for this section, e.g., "Example workflows include ... ")
+This section demonstrates how to access NAM analysis fields, compute key dynamical quantities such as absolute vorticity, convert grid-relative winds, and generate a synoptic-scale map using Cartopy and MetPy.
 
 ## Running the Notebooks
 
