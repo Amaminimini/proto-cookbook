@@ -1,0 +1,4 @@
+## Conclusion
+
+In this cookbook, synoptic-scale features and vertical atmospheric structure were analyzed using NAM 500-hPa fields along with two complementary upper-air soundings: a **18Z RAP reanalysis profile** and a **00Z IGRAv2 observed sounding**. The 500-hPa map captured a pronounced mid-level trough and regions of elevated absolute vorticity over the northeastern United States, illustrating a dynamically active environment supportive of ascent and cyclogenesis. Comparing the reanalysis and observed soundings highlighted differences in instability, moisture, and wind shear between the afternoon (18Z) and overnight (00Z) environments, demonstrating how quickly the thermodynamic and kinematic structure of the atmosphere can evolve around impactful weather events. Together, these analyses showed how synoptic maps and vertical profiles provide complementary perspectives for assessing severe-weather potential.
+

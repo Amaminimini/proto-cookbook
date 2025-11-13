@@ -15,13 +15,8 @@ This cookbook demonstrates practical workflows for retrieving, analyzing, and vi
 
 ## Authors
 
-[**Amanda Maminimini**](https://github.com/Amaminimini) — primary author and developer of all content, analysis workflows, and notebooks in this prototype cookbook.
+[**Amanda Maminimini**](https://github.com/Amaminimini) 
 
-### Contributors
-
-<a href="https://github.com/ProjectPythia/cookbook-template/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=ProjectPythia/cookbook-template" />
-</a>
 ### Contributors
 
 <a href="https://github.com/ProjectPythia/cookbook-template/graphs/contributors">
